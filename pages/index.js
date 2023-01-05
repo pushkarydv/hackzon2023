@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "../components/global/Footer";
 import Navbar from "../components/global/Navbar";
+import Hero from "../components/Home/Hero";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <Hero />
       <Footer />
     </>
   );
