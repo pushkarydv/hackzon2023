@@ -11,7 +11,7 @@ export default function Dashboard() {
   const [dataState, setDataState] = useState(null);
   useEffect(() => {
     if (status === "authenticated") {
-      async function fetchPatientsDetails() {
+      async function fetchDetails() {
         const docRef = doc(db, "doctors", session.user.email);
         const docSnap = await getDoc(docRef);
         const dbdata = docSnap.data();
@@ -23,7 +23,7 @@ export default function Dashboard() {
         }
       }
 
-      fetchPatientsDetails();
+      fetchDetails();
     }
   }, [status]);
 
