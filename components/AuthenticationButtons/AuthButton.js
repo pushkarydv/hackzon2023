@@ -5,24 +5,24 @@ export default function AuthButton() {
   if (session) {
     return (
       <>
-        Signed in as {session.user.email} <br />
+        {" "}
+        you are already logged in <br />
         <button
-          className="p-2 bg-black text-white rounded-md"
+          className="p-2 rounded-md bg-black text-white text-center w-full "
           onClick={() => signOut()}
         >
-          Sign out
+          Sign Out
         </button>
       </>
     );
   }
   return (
     <>
-      Not signed in <br />
       <button
-        className="p-2 bg-black text-white rounded-md"
+        className="p-2 rounded-md bg-rose-500 text-white text-center w-full "
         onClick={() => signIn("google")}
       >
-        Sign in
+        Continue with google
       </button>
     </>
   );

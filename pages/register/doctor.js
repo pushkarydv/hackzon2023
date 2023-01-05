@@ -1,5 +1,7 @@
+import { signIn } from "next-auth/react";
 import Head from "next/head";
 import React from "react";
+import AuthButton from "../../components/AuthenticationButtons/AuthButton";
 
 export default function doctor() {
   return (
@@ -12,16 +14,10 @@ export default function doctor() {
       </Head>
       <div className="pt-12">
         <div className="w-[90%] sm:w-80 md:w-96 rounded-xl ring-2 mx-auto ring-slate-200 p-2">
-          <div className="text-xl font-semibold text-center mt-4">
+          <div className="text-xl font-semibold text-center my-4">
             Heyy doctor
           </div>
-
-          <button
-            className="p-2 rounded-md bg-rose-500 text-white my-4 text-center w-full "
-            onClick={() => signIn("google")}
-          >
-            Continue with google
-          </button>
+          <AuthButton />
         </div>
       </div>
     </>
