@@ -14,11 +14,11 @@ export default function App({
       refetchOnWindowFocus={false}
       refetchInterval={10 * 60}
     >
-      <Navbar />
       <main className="custom-font min-h-screen w-full bg-slate-50 text-slate-900">
+        <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </main>
-      <Footer />
     </SessionProvider>
   );
 }

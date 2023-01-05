@@ -1,4 +1,3 @@
-import { signIn } from "next-auth/react";
 import Head from "next/head";
 import React from "react";
 import AuthButton from "../../components/AuthenticationButtons/AuthButton";
