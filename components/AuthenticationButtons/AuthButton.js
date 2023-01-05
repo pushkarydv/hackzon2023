@@ -6,10 +6,8 @@ export default function AuthButton() {
   if (session) {
     return (
       <>
-        {" "}
-        you are already logged in <br />
         <button
-          className="p-2 rounded-md bg-black text-white text-center w-full "
+          className="btn btn-outline btn-neutral "
           onClick={() => signOut()}
         >
           Sign Out
@@ -20,7 +18,7 @@ export default function AuthButton() {
   return (
     <>
       <button
-        className="btn btn-outline btn-info gap-4 m-auto w-max"
+        className="btn btn-outline btn-info gap-4"
         onClick={() => signIn("google")}
       >
         <FcGoogle size={32} />

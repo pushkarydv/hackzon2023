@@ -1,16 +1,12 @@
 import { useSession } from "next-auth/react";
 import Head from "next/head";
-import { useRouter } from "next/router";
 import React from "react";
 import AuthButton from "../../../components/AuthenticationButtons/AuthButton";
+import DoctorForm from "../../../components/Register/DoctorForm";
 
-export default function Index() {
+export default function Patient() {
   const { data: session, status } = useSession();
-  const router = useRouter();
 
-  if (status === "authenticated") {
-    router.push("/doctor/dashboard");
-  }
   return (
     <>
       <Head>
@@ -19,14 +15,23 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="pt-12 pb-6 min-h-[60vh] flex justify-center items-center">
-        <div className="w-[90%] sm:w-80 md:w-96 rounded-xl ring-2 mx-auto ring-slate-200 p-2">
-          <div className="text-xl font-semibold text-center my-4">
-            Heyy doctor
-          </div>
-          <AuthButton />
+      <section className="w-full md:w-10/12 m-auto flex flex-col md:flex-row  items-center justify-between">
+        <div className="w-full md:w-1/2 flex items-center justify-center">
+          {status === "loading" || status === "unauthenticated" ? (
+            <AuthButton />
+          ) : (
+            <DoctorForm />
+          )}
         </div>
-      </div>
+        <div className="w-full md:w-1/2">
+          <img
+            src="/images/doctor1.png"
+            alt=""
+            srcSet=""
+            className="w-full m-auto"
+          />
+        </div>
+      </section>
     </>
   );
 }
