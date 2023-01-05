@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import Navbar from "../../components/global/Navbar";
 import Footer from "../../components/global/Footer";
+import AuthButton from "../../components/AuthenticationButtons/AuthButton";
 
 export default function doctor() {
   return (
@@ -13,6 +14,7 @@ export default function doctor() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <AuthButton />
       ..doctor
       <Footer />
     </>
