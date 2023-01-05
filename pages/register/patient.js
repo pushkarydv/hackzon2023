@@ -10,7 +10,25 @@ export default function patient() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      ..patient
+      <section className="w-full md:w-10/12 m-auto flex flex-col md:flex-row  items-center justify-between">
+        <div className="w-full md:w-1/2">
+          <form action="">
+            <input
+              type="text"
+              placeholder="Type here"
+              className="input input-bordered input-info w-10/12"
+            />
+          </form>
+        </div>
+        <div className="w-full md:w-1/2">
+          <img
+            src="/images/patient.png"
+            alt=""
+            srcset=""
+            className="w-full m-auto"
+          />
+        </div>
+      </section>
     </>
   );
 }
