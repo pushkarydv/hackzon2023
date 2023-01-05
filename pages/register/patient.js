@@ -5,7 +5,7 @@ import AuthButton from "../../components/AuthenticationButtons/AuthButton";
 import PatientForm from "../../components/Register/PatientForm";
 
 export default function Patient() {
-  const { data: status } = useSession();
+  const { data:session, status } = useSession();
 
   return (
     <>
