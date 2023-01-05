@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import React from "react";
-import Choose from "../../components/Register/Choose";
+import Choose from "../../components/Dashboard/Choose";
 
 export default function index() {
   return (

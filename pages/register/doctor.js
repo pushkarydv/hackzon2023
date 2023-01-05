@@ -1,10 +1,10 @@
 import { useSession } from "next-auth/react";
 import Head from "next/head";
 import React from "react";
-import AuthButton from "../../../components/AuthenticationButtons/AuthButton";
-import DoctorForm from "../../../components/Register/DoctorForm";
+import AuthButton from "../../components/AuthenticationButtons/AuthButton";
+import DoctorForm from "../../components/Register/DoctorForm";
 
-export default function Patient() {
+export default function Doctor() {
   const { data: session, status } = useSession();
 
   return (

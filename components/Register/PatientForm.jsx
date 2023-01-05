@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { db } from "../../config/firebase";
 import AuthButton from "../AuthenticationButtons/AuthButton";
+
 export default function PatientForm() {
   const { data: session } = useSession();
 

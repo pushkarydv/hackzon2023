@@ -40,7 +40,8 @@ export default function Navbar() {
       </button>
       <div className="transition-all nav-items hidden md:flex flex-row justify-between items-center gap-2 ">
         <NavigateTOPages text="Home" href="/" />
-        <NavigateTOPages text="Login/SignUp" href="/register" />
+        <NavigateTOPages text="SignIn" href="/signin" />
+        <NavigateTOPages text="Register" href="/register" />
       </div>
       <style jsx>{`
         .nav-items-open {
