@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Choose() {
   return (
-    <div className="p-4">
+    <div className="p-4 min-h-screen">
       <div className="flex flex-col lg:flex-row justify-center items-center w-full sm:w-[80%] md:w-[70%] lg:w-[70%] mx-auto lg:mt-4 xl:mt-8 gap-8 sm:gap-4">
         <div className="w-full lg:w-1/2 mt-4 sm:mt-0">
           <div className="text-lg text-slate-600 font-semibold">

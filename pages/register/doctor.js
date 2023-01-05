@@ -15,7 +15,7 @@ export default function Doctor() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="w-full md:w-10/12 m-auto flex flex-col md:flex-row  items-center justify-between">
+      <section className="w-full md:w-10/12 m-auto flex flex-col md:flex-row  items-center justify-between min-h-screen">
         <div className="w-full md:w-1/2 flex items-center justify-center">
           {status === "loading" || status === "unauthenticated" ? (
             <AuthButton />
