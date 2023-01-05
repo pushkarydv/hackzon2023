@@ -15,7 +15,7 @@ export default function doctor() {
       </Head>
       <Navbar />
       <AuthButton />
-      ..doctor
+
       <Footer />
     </>
   );
