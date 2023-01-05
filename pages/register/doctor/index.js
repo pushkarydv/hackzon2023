@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import AuthButton from "../../../components/AuthenticationButtons/AuthButton";
 
-export default function doctor() {
+export default function index() {
   const { data: session, status } = useSession();
   const router = useRouter();
 

@@ -9,7 +9,7 @@ export default function dashboard() {
   const { status } = useSession({
     required: true,
     onUnauthenticated() {
-      router.push("/register");
+      router.push("/");
     },
   });
   if (status === "loading") {
