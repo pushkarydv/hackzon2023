@@ -1,8 +1,16 @@
+import { useSession } from "next-auth/react";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import React from "react";
-import AuthButton from "../../components/AuthenticationButtons/AuthButton";
+import AuthButton from "../../../components/AuthenticationButtons/AuthButton";
 
 export default function doctor() {
+  const { data: session, status } = useSession();
+  const router = useRouter();
+
+  if (status === "authenticated") {
+    router.push("/doctor/dashboard");
+  }
   return (
     <>
       <Head>
