@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="w-full md:w-10/12 m-auto flex items-center justify-between min-h-[90vh]">
+    <div className="w-full md:w-10/12 m-auto flex items-center justify-center min-h-[90vh] flex-col md:flex-row">
       <div className="flex flex-col w-full md:w-1/2 gap-4">
         <div className="text-8xl font-bold">Scheduler</div>
         <div className="text-3xl font-mono">
