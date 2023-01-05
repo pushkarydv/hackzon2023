@@ -66,6 +66,7 @@ export default function DoctorForm() {
           time: form.get("toTime"),
           day: form.get("toDay"),
         };
+        let ppf = session.user.image;
 
         await setDoc(doc(db, "doctors", form.get("email")), {
           name,
@@ -81,6 +82,7 @@ export default function DoctorForm() {
           from,
           to,
           isDoctor,
+          ppf,
         }).then(() => {
           alert("saved successfully");
         });

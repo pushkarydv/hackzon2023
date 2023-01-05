@@ -48,6 +48,7 @@ export default function PatientForm() {
         let dob = form.get("dob");
         let height = form.get("height");
         let weight = form.get("weight");
+        let ppf = session.user.image;
         let isDoctor = false;
 
         await setDoc(doc(db, "patients", form.get("email")), {
@@ -60,6 +61,7 @@ export default function PatientForm() {
           height,
           weight,
           isDoctor,
+          ppf,
         }).then(() => {
           alert("saved successfully");
         });
