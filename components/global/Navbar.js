@@ -24,8 +24,9 @@ export default function Navbar() {
       setNavState("closed");
     }
   }
+
   return (
-    <nav className="p-1 text-xl flex flex-row justify-between items-center overflow-x-hidden h-[10vh] top-0">
+    <nav className="p-1 text-xl flex flex-row justify-between items-center overflow-x-hidden sticky h-[10vh] top-0 z-50 backdrop-blur-3xl bg-white bg-opacity-40">
       <div className=" font-bold text-2xl mx-3 my-3 text-violet-600">
         Schedular
       </div>
