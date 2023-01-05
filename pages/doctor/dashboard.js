@@ -17,7 +17,7 @@ export default function Dashboard() {
   }
   return (
     <div>
-      dashboard {JSON.stringify(data)} <AuthButton />
+      dashboard <br /> {JSON.stringify(data)} <br /> <AuthButton />
     </div>
   );
 }

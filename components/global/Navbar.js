@@ -4,7 +4,7 @@ import React, { useState } from "react";
 export default function Navbar() {
   // state to manage navbar toggle
   const [navState, setNavState] = useState("closed");
-  // function to toggle navbar using a custom class added at end of file using style jsx
+  // function to toggle navbar using a custom className added at end of file using style jsx
   function ToggleNavbar() {
     let lines = document.querySelectorAll(".hamburger-line");
     let navItems = document.querySelector(".nav-items");

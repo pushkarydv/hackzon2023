@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="bg-neutral">
-      <div class="footer p-6 text-neutral-content justify-around">
+      <div className="footer p-6 text-neutral-content justify-around">
         <div>
           <p>
             Schedular
