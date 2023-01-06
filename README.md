@@ -1,6 +1,6 @@
 ## 🚧 Under Development
 ----
-# SCHEDULER [`visit website ↗`](https://hackzon2023.vercel.app/)
+## SCHEDULER [`visit website ↗`](https://hackzon2023.vercel.app/)
 
 ## THE PROBLEM
 The problem is that patients face challenges when it comes to physically visiting doctors and paying high costs. This can be time-consuming and expensive, and can make it difficult for patients to get the medical care they need.
@@ -17,7 +17,7 @@ In addition to searching for doctors by specialty, patients can also search for 
   - paying via razorpay
   - storing client files on services like cloudinary, firestore or any other cloud
 
-## [`youutbe Video ↗`](https://www.youtube.com/watch?v=GdGHvWYl7CU&ab_channel=PushkarYadav)
+## [`youtube Video ↗`](https://www.youtube.com/watch?v=GdGHvWYl7CU&ab_channel=PushkarYadav)
 
 ## BENEFITS
 - Provide an option for telemedicine consultations, where patients can talk to doctors via video call or chat. This can be especially useful for people who live in remote areas or have mobility issues.
