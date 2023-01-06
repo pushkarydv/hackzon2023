@@ -1,6 +1,7 @@
 import Head from "next/head";
 import About from "../components/Home/About";
 import Hero from "../components/Home/Hero";
+import Video from "../components/Home/Video";
 import WhyUs from "../components/Home/Whyus";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <About />
       <WhyUs />
+      <Video />
     </>
   );
 }
