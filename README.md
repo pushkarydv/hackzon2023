@@ -10,6 +10,13 @@ Our online resource for consulting doctors aims to provide a convenient and acce
 One of the main challenges patients face when seeking medical care is the lack of access to experienced doctors, especially those who specialize in specific areas of medicine. This can be especially difficult for people who live in remote areas or have mobility issues. Our platform aims to address this problem by making it easy for patients to consult with doctors from the comfort of their own homes.
 Our platform offers a wide range of medical specialties, so patients can find a doctor who is an expert in their specific area of concern. We also provide detailed profiles for each doctor, including their education, training, experience, and areas of expertise. This helps patients make informed decisions about which doctor is the best fit for their needs.
 In addition to searching for doctors by specialty, patients can also search for doctors by location. This is especially useful for patients who want to find a doctor who is convenient for them. Our platform also offers a booking system, so patients can schedule appointments with doctors at their convenience.
+
+- as of now this is a prototype built in less then 24hours so all the features might not be available but the it aims to serve things like 
+  - verification of doctor
+  - booking an apponitment 
+  - paying via razorpay
+  - storing client files on services like cloudinary, firestore or any other cloud
+
 ## BENEFITS
 - Provide an option for telemedicine consultations, where patients can talk to doctors via video call or chat. This can be especially useful for people who live in remote areas or have mobility issues.
 - Allow patients to rate and review their consultations with doctors, which can help other patients make informed decisions about which doctors to consult.
