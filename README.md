@@ -17,6 +17,8 @@ In addition to searching for doctors by specialty, patients can also search for 
   - paying via razorpay
   - storing client files on services like cloudinary, firestore or any other cloud
 
+## [`youutbe Video ↗`](https://www.youtube.com/watch?v=GdGHvWYl7CU&ab_channel=PushkarYadav)
+
 ## BENEFITS
 - Provide an option for telemedicine consultations, where patients can talk to doctors via video call or chat. This can be especially useful for people who live in remote areas or have mobility issues.
 - Allow patients to rate and review their consultations with doctors, which can help other patients make informed decisions about which doctors to consult.
