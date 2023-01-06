@@ -26,7 +26,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="p-1 text-xl flex flex-row justify-between items-center overflow-x-hidden top-0 z-50 backdrop-blur-3xl bg-white bg-opacity-40">
+    <nav className="p-1 text-xl flex flex-row justify-between items-center overflow-x-hidden h-[10vh] top-0">
       <div className=" font-bold text-2xl mx-3 my-3 text-violet-600">
         Schedular
       </div>
@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className="hamburger-line transition-all w-full bg-violet-500 h-1 rounded-full "></div>
         <div className="hamburger-line transition-all w-full bg-violet-500 h-1 rounded-full "></div>
       </button>
-      <div className="transition-all nav-items hidden md:flex flex-row justify-between items-center gap-2 ">
+      <div className="transition-all nav-items hidden md:flex flex-row justify-between items-center gap-2">
         <NavigateTOPages text="Home" href="/" />
         <NavigateTOPages text="SignIn" href="/signin" />
         <NavigateTOPages text="Register" href="/register" />
