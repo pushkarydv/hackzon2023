@@ -33,6 +33,11 @@ In addition to searching for doctors by specialty, patients can also search for 
 ![NEXT AUTH](https://img.shields.io/badge/NextAuth-black?style=for-the-badge&logo=nxtauth&logoColor=blue)
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/96358784/210905139-c95e43c9-3d7e-4ea4-93cc-898c030b5179.png)
+![image](https://user-images.githubusercontent.com/96358784/210905468-a3ffa960-9a30-4ab5-82eb-4afd640632aa.png)
+![image](https://user-images.githubusercontent.com/96358784/210905168-90becc7a-b4c7-44b6-a00a-03cf02cf563a.png)
+![image](https://user-images.githubusercontent.com/96358784/210905322-9bc08334-a01c-4977-bbed-339a6b37c626.png)
+![image](https://user-images.githubusercontent.com/96358784/210905412-0b8abafd-f59f-4a3f-a7f5-0280532c065d.png)
 
 
 <details> <summary>NextJS Guide </summary>
