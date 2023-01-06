@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { db } from "../../config/firebase";
 import AuthButton from "../../components/AuthenticationButtons/AuthButton";
+import Doctor from "../../components/Dashboard/Doctor";
 export default function Dashboard() {
   const router = useRouter();
   const { data: session, status } = useSession();
@@ -57,7 +58,8 @@ export default function Dashboard() {
         )}
         {dataState != 0 && dataState != null && (
           <>
-            {JSON.stringify(dataState)} <AuthButton />
+            {/* {JSON.stringify(dataState)} <AuthButton /> */}
+            <Doctor data={dataState} />
           </>
         )}
       </>
